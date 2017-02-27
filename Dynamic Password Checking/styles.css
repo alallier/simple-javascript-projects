@@ -1,0 +1,34 @@
+h1 {
+  text-align: center
+}
+.docForm {
+  width: 100%;
+}
+.docForm form {
+  border: 1px solid #cc9;
+  padding: 10px;
+  font-family: verdana;
+  width: 75%;
+  font-size: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.passForm{
+  margin: 2px 0 2px 0;
+  padding: 0;
+}
+.passForm label{
+  float: left;
+  text-align: right;
+  margin: 0 5px 0 0;
+  width: 30%;
+}
+.passForm input{
+  width: 200px;
+  border: 1px solid #cc9;
+}
+.alerting{
+  margin: 0;
+  padding-left:225px;
+  font-size: .8em;
+}
