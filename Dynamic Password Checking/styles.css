@@ -18,17 +18,17 @@ h1 {
   padding: 0;
 }
 .passForm label{
-float: left;
-text-align: right;
-margin: 0 5px 0 0;
-width: 30%;
+  float: left;
+  text-align: right;
+  margin: 0 5px 0 0;
+  width: 30%;
 }
 .passForm input{
-width: 200px;
-border: 1px solid #cc9;
+  width: 200px;
+  border: 1px solid #cc9;
 }
 .alerting{
-margin: 0;
-padding-left:225px;
-font-size: .8em;
+  margin: 0;
+  padding-left:225px;
+  font-size: .8em;
 }
