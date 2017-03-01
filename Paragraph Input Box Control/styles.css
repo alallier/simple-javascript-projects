@@ -1,0 +1,19 @@
+h1 {
+  text-align: center;
+}
+.intro {
+  text-align: center;
+}
+.boxForm {
+  text-align: center;
+}
+.cLabel {
+  text-align: center;
+}
+.paragraph {
+  text-align: center;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+}

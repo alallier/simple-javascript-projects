@@ -1,0 +1,31 @@
+<!doctype html>
+
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <title>Paragraph Input Box Control</title>
+  <link rel='stylesheet' href='styles.css'>
+</head>
+<body>
+  <h1>Welcome To the Input Box Page</h1>
+  <p class='intro'> This website allows the user to type input into the box below. The input is then inserted into the
+      paragraphs below, as long as the corresponding box is left un-checked.</p>
+  <section class='boxForm'>
+    <label id='boxLabel' for='inputBox'>Please enter some text: </label>
+    <input id='inputBox' value='Enter text here.' type='text' size='50'>
+  </section>
+  <section class='para'>
+    <label class='cLabel' for='check'>Disable input: </label>
+    <input type='checkbox' name='check'><p class='paragraph'>Enter text above.</p>
+    <label class='cLabel' for='check'>Disable input: </label>
+    <input type='checkbox' name='check'><p class='paragraph'>Enter text above.</p>
+    <label class='cLabel' for='check'>Disable input: </label>
+    <input type='checkbox' name='check'><p class='paragraph'>Enter text above.</p>
+    <label class='cLabel' for='check'>Disable input: </label>
+    <input type='checkbox' name='check'><p class='paragraph'>Enter text above.</p>
+    <label class='cLabel' for='check'>Disable input: </label>
+    <input type='checkbox' name='check'><p class='paragraph'>Enter text above.</p>
+  </section>
+  <script src='scripts.js'></script>
+</body>
+</html>
