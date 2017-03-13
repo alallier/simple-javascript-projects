@@ -3,18 +3,17 @@ var inputParagraph = document.getElementById('inputParagraph'),
 
 editButton.addEventListener('click', function() {
   if (editButton.value === "Edit") {
-		inputParagraph.style.display = "none";
 
 	  inputParagraph.contentEditable = true;
 
-		editButton.value = "Save";
+	  editButton.value = "Save";
 	}
 	else if (editButton.value === "Save") {
 
-		inputParagraph.value = inputParagraph.innerHTML;
+	  inputParagraph.value = inputParagraph.innerHTML;
 
     inputParagraph.contentEditable = false;
 
-		editButton.value = "Edit";
+	  editButton.value = "Edit";
 	}
 });
