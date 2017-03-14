@@ -6,8 +6,8 @@ editButton.addEventListener('click', function() {
 	    paragraphText,
 			inputbox;
 
-	if (editButton.value === "Edit") {
-		inputParagraph.style.display = "none";
+	if (editButton.value === 'Edit') {
+		inputParagraph.style.display = 'none';
 
     paragraphText = inputParagraph.innerHTML;
 
@@ -19,9 +19,9 @@ editButton.addEventListener('click', function() {
 
 		inputParagraph.value = paragraphText;
 
-		editButton.value = "Save";
+		editButton.value = 'Save';
 	}
-	else if (editButton.value === "Save") {
+	if (editButton.value === 'Save') {
 		var inputbox = document.getElementById('inputbox');
 
     inputParagraph.innerHTML = inputbox.value;
@@ -30,6 +30,6 @@ editButton.addEventListener('click', function() {
 
 		inputParagraph.style.display = 'initial';
 
-		editButton.value = "Edit";
+		editButton.value = 'Edit';
 	}
 });
