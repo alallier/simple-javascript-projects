@@ -5,7 +5,8 @@ addButton.addEventListener('click', function() {
   var addElement = document.getElementById('addElement'),
 	    addText = document.getElementById('addText'),
 			elementToAdd,
-			text;
+			text,
+			deleteButton;
 
   elementToAdd = addElement.value;
 
@@ -18,4 +19,13 @@ addButton.addEventListener('click', function() {
 	text = document.createTextNode(text);
 
 	elementToAdd.appendChild(text);
+
+	deleteButton = document.createElement('button');
+	deleteButton.innerHTML = 'Delete';
+
+	elementToAdd.appendChild(deleteButton);
+
+  deleteButton.addEventListener('click', function() {
+    addedHTMLContainer.removeChild(elementToAdd);
+	})
 });
