@@ -26,7 +26,7 @@ editButton.addEventListener('click', function() {
 
     inputParagraph.innerHTML = inputbox.value;
 
-		inputbox.style.display = 'none';
+		userInputForm.removeChild(inputbox);
 
 		inputParagraph.style.display = 'initial';
 
