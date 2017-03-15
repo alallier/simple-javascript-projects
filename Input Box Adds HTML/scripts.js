@@ -4,6 +4,7 @@ var addButton = document.getElementById('addButton'),
 addButton.addEventListener('click', function() {
   var addElement = document.getElementById('addElement'),
 	    addText = document.getElementById('addText'),
+	   	editButton = document.getElementById('editButton'),
 			elementToAdd,
 			text,
 			deleteButton;
@@ -21,11 +22,24 @@ addButton.addEventListener('click', function() {
 	elementToAdd.appendChild(text);
 
 	deleteButton = document.createElement('button');
+	deleteButton.setAttribute('class', 'deleteButton');
 	deleteButton.innerHTML = 'Delete';
 
 	elementToAdd.appendChild(deleteButton);
 
-  deleteButton.addEventListener('click', function() {
-    addedHTMLContainer.removeChild(elementToAdd);
-	})
+	deleteButton.addEventListener('click', deleteButton);
 });
+
+editButton.addEventListener('click', function() {
+	var pickColor = document.getElementById('pickColor'),
+			pickFontSize = document.getElementById('pickFontSize');
+
+	elementToAdd.style.color = pickColor.value;
+
+	elementToAdd.style.fontSize = pickFontSize.value;
+});
+
+function deleteButton(event) {
+  //addedHTMLContainer.removeChild(elementToAdd);
+	console.log('Hello world');
+}
