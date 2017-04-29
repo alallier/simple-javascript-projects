@@ -1,8 +1,8 @@
-/* In the end, everything was aligned to the center, so I replaced all of the 'text-align: center;' rules with one in the body */
+/* Align everything to the center */
 body {
 	text-align: center;
 }
-/* After this #intro and #inputParagraph both had the same rule, so I made one rule with both */
+/* Set 'word-break: break-all;' to both #intro and #inputParagraph */
 #intro, #inputParagraph {
 	word-break: break-all;
 }
