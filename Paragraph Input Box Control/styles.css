@@ -1,6 +1,3 @@
-h1 {
-  text-align: center;
-}
-.containerOfParagraphs {
+h1, .containerOfParagraphs {
   text-align: center;
 }
