@@ -1,13 +1,8 @@
-h1 {
+/* Align everything to the center */
+body {
 	text-align: center;
 }
-#intro {
-	text-align: center;
-	word-break: break-all;
-}
-#userInputForm {
-	text-align: center;
-}
-#inputParagraph {
+/* Set 'word-break: break-all;' to both #intro and #inputParagraph */
+#intro, #inputParagraph {
 	word-break: break-all;
 }
